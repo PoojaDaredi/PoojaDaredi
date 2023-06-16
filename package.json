@@ -1,0 +1,23 @@
+{
+    "name": "angular-electron-app",
+    "version": "1.0",
+    "description": "Angular with Electron app",
+    "author": {
+        "name": "Daredi Pooja"
+    },
+    "main": "app/main.js",
+    "private":"true",
+    "scripts": {
+        "postinstall": "electron-builder install-app-deps",
+        "start": "npm-run-all && electron ./app",
+        "dist": "electron-builder"
+    },
+    "dependencies": {
+        "all":"required dependecies"
+    },
+    "devDependencies": {
+        "electron": "latest",
+        "electron-builder": "latest",
+        "all":"required dependecies"
+    }
+}
